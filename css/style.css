@@ -293,6 +293,12 @@ h1, h2, h3, h4, h5,
   font-size: 1.3rem; }
   .site-logo a {
     color: #fff; }
+    .site-logo a span{
+      font-weight: 300;
+      font-size: 12px;
+      position: relative;
+      top: -12px;
+    }
 
 .site-navbar {
   margin-bottom: 0px;
@@ -724,9 +730,9 @@ h1, h2, h3, h4, h5,
     .image-absolute-box .box p {
       color: rgba(255, 255, 255, 0.55); }
 
-.section-1 {
+/*.section-1 {
   margin-top: 10rem; }
-
+*/
 .work-thumb {
   position: relative;
   display: block;
@@ -857,3 +863,4 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .service {
       padding: 2rem; } }
+
