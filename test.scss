@@ -1,0 +1,11 @@
+.five-column {
+    @include for-md-only {
+        padding: 30px 9px;
+    }
+    .image-icon img {
+        @include for-md-only {
+            max-height: 100px;
+            max-width: 100px;
+        }   
+    }
+}
