@@ -271,9 +271,11 @@ jQuery(document).ready(function($) {
   		var st = $(this).scrollTop();
 
   		if (st > 100) {
-  			$('.js-sticky-header').addClass('shrink');
+			  $('.js-sticky-header').addClass('shrink');
+			  $('.site-logo img').attr("src", "images/logo_blue.png");
   		} else {
-  			$('.js-sticky-header').removeClass('shrink');
+			  $('.js-sticky-header').removeClass('shrink');
+			  $('.site-logo img').attr("src", "images/logo.png");
   		}
 
   	}) 
